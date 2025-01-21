@@ -1,0 +1,44 @@
+/* MyHeader.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.header-title {
+    color: white;
+    margin: 0; /* Bỏ khoảng cách mặc định */
+}
+
+.nav {
+    list-style-type: none; /* Bỏ dấu chấm cho danh sách */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hiển thị danh sách theo hàng ngang */
+}
+
+.nav li {
+    margin-right: 20px; /* Khoảng cách giữa các mục menu */
+}
+
+.nav a {
+    color: white; /* Màu chữ */
+    text-decoration: none; /* Bỏ gạch chân */
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}

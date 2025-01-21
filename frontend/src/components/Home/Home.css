@@ -1,0 +1,42 @@
+.home {
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: space-between; /* Chia đều không gian giữa các cột */
+    align-items: flex-start; /* Căn trên cùng */
+    padding: 20px; /* Khoảng cách bên trong */
+}
+
+.hero {
+    flex: 1; /* Chiếm 1 phần không gian */
+    text-align: center; /* Căn giữa nội dung trong hero */
+    margin-right: 20px; /* Khoảng cách bên phải */
+}
+
+.features-container {
+    flex: 1; /* Chiếm 1 phần không gian */
+}
+
+.features {
+    background-color: rgba(255, 255, 255, 0.9); /* Nền sáng cho phần tính năng */
+    border-radius: 8px; /* Bo góc cho phần tính năng */
+    padding: 20px; /* Khoảng cách bên trong */
+}
+
+.logo {
+    width: 150px; /* Kích thước logo */
+    margin-bottom: 20px; /* Khoảng cách dưới logo */
+}
+
+.btn-book-now {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
+
+.btn-book-now:hover {
+    background-color: #0056b3; /* Màu khi hover */
+}

@@ -1,0 +1,18 @@
+.room-details {
+    display: flex;
+    align-items: center;
+}
+
+.room-image {
+    width: 100px; /* Kích thước hình ảnh */
+    height: auto;
+    margin-right: 10px; /* Khoảng cách giữa hình ảnh và thông tin */
+}
+
+.room-name {
+    font-weight: bold;
+}
+
+.room-price {
+    color: #28a745; /* Màu sắc cho giá tiền */
+}

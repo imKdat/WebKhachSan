@@ -1,0 +1,30 @@
+/* MyFooter.css */
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: left; /* Căn trái cho nội dung */
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex; /* Sử dụng flexbox để chia cột */
+    justify-content: space-between; /* Chia đều không gian giữa các cột */
+    max-width: 1200px; /* Giới hạn chiều rộng tối đa */
+    margin: auto; /* Căn giữa */
+}
+
+.footer-column {
+    flex: 1; /* Mỗi cột chiếm 1 phần bằng nhau */
+    padding: 10px; /* Khoảng cách giữa các cột */
+}
+
+.footer h3 {
+    margin-top: 0; /* Bỏ khoảng cách trên tiêu đề */
+}
+
+.footer p {
+    margin: 5px 0; /* Khoảng cách giữa các đoạn văn */
+}
