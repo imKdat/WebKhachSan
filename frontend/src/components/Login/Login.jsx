@@ -8,9 +8,10 @@ const Login = () => {
     const navigate = useNavigate(); // Sử dụng useNavigate
 
     const handleLogin = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         if (username === 'admin' && password === 'password') {
             navigate('/'); // Sử dụng navigate để chuyển hướng
+            localStorage.setItem('userName', username);
         } else {
             alert('Thông tin đăng nhập không chính xác!');
         }

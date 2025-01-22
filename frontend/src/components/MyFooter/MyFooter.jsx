@@ -6,9 +6,9 @@ const MyFooter = () => {
             <div className="footer-content">
                 <div className="footer-column">
                     <h3>Thành Viên Nhóm</h3>
-                    <p><strong>Đào Khắc Đạt</strong> - Lập trình viên</p>
-                    <p><strong>Nguyễn Hoàng Phi Long</strong> - Thiết kế giao diện</p>
-                    <p><strong>Trần Thị Yến</strong> - Quản lý dự án</p>
+                    <p><strong>Đào Khắc Đạt</strong> - Lập trình backend & frontend</p>
+                    <p><strong>Nguyễn Hoàng Phi Long</strong> - Thiết kế giao diện & lập trình frontend</p>
+                    <p><strong>Trần Thị Yến</strong> - Lập trình backend</p>
                 </div>
                 <div className="footer-column">
                     <h3>Thông Tin Liên Hệ</h3>
@@ -18,7 +18,7 @@ const MyFooter = () => {
                 </div>
                 <div className="footer-column">
                     <h3>Giới Thiệu</h3>
-                    <p>Chào mừng bạn đến với [Tên Khách Sạn], nơi mà sự thoải mái gặp gỡ sự sang trọng.</p>
+                    <p>Chào mừng bạn đến với Khách Sạn Gia Định, nơi mà sự thoải mái gặp gỡ sự sang trọng.</p>
                     <p>Đội ngũ của chúng tôi luôn sẵn sàng phục vụ bạn với dịch vụ tốt nhất.</p>
                 </div>
             </div>

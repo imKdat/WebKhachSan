@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import logo from './logo.png'; // Import logo
 
 const Home = () => {
+    let userName = localStorage.getItem('userName');
     return (
         <div className="home">
             <div className="hero">
                 <img src={logo} alt="Logo" className="logo" />
-                <h2>Chào mừng đến với Hotel Del Luna</h2>
+                <h2>Chào mừng đến với Hotel Gia Dinh</h2>
+                {userName ? (<div>Xin chào {userName}</div>):(<div>Hello</div>)}
                 <p>Trải nghiệm kỳ nghỉ tuyệt vời với dịch vụ hoàn hảo và không gian sang trọng.</p>
                 <Link to="/rooms">
                     <button className="btn-book-now">Đặt phòng ngay</button>
