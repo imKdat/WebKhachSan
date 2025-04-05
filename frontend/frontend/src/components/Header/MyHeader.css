@@ -1,0 +1,78 @@
+/* MyHeader.css */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white; /* Đổi nền thành màu trắng */
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Giúp header hiển thị trên banner */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-logo img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px; /* Khoảng cách giữa logo và tiêu đề */
+}
+
+.header-title {
+    color: #B58B50; /* Màu vàng nâu giống trong hình */
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.menu-container {
+    position: relative;
+    left: 10px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: #B58B50; /* Màu chữ vàng nâu */
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1001; /* Hiển thị trên banner */
+    width: 200px;
+}
+
+.dropdown-menu li {
+    margin: 10px 0;
+}
+
+.dropdown-menu a {
+    color: #B58B50; /* Màu chữ vàng nâu */
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f4f4f4; /* Màu nền hover nhẹ */
+    border-radius: 3px;
+}

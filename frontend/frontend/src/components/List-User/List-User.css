@@ -1,0 +1,110 @@
+.customer-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.customer-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.customer-list-table-container {
+    overflow-x: auto;
+}
+
+.customer-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.customer-list-table th,
+.customer-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.customer-list-table th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+}
+
+.customer-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.customer-list-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.view-btn, .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.view-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #0b7dda;
+}
+
+.edit-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #e68a00;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
+
+.loading, .error {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.error {
+    color: #f44336;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
