@@ -11,7 +11,7 @@ const MyHeader = () => {
             <div className="header-logo">
                 <Link to="/">
                     <img
-                        src="https://spencil.vn/wp-content/uploads/2024/07/mau-thiet-ke-logo-khach-san-SPencil-Agency-1-1024x768.jpg"
+                        src="https://inkythuatso.com/uploads/thumbnails/800/2021/12/logo-dai-hoc-gia-dinh-inkythuatso-01-20-15-25-55.jpg"
                         alt="Logo"
                         className="logo-img"
                     />
